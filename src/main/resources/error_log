@@ -1,0 +1,8 @@
+2026-04-14T00:57:27.374687 - Ошибка обработки строки '02.10.25 23:50;03.10.25 06:40;NORMAL': No enum constant ru.yandex.practicum.sleeptracker.SleepQuality.NORMAL
+
+2026-04-14T00:57:27.376683800 - Ошибка обработки строки '03.10.25 14:10;03.10.25 15:00;NORMAL': No enum constant ru.yandex.practicum.sleeptracker.SleepQuality.NORMAL
+
+2026-04-14T00:57:27.376683800 - Ошибка обработки строки '05.10.25 13:30;05.10.25 14:15;NORMAL': No enum constant ru.yandex.practicum.sleeptracker.SleepQuality.NORMAL
+
+2026-04-14T00:57:27.377681300 - Ошибка обработки строки '10.10.25 13:00;10.10.25 14:30;NORMAL': No enum constant ru.yandex.practicum.sleeptracker.SleepQuality.NORMAL
+
