@@ -17,7 +17,7 @@ public class SleepTrackerAppTest {
             LocalDateTime.of(2025, 10, 2, 8, 0),   // 02.10.25 08:00
             SleepQuality.GOOD
     );
-    //  короткий дневной сон
+    //  короткий дневной сон (Это плохой сон для testLotSessionsWithBadSleep() )
     SleepingSession sleepingSession2 = new SleepingSession(
             LocalDateTime.of(2025, 10, 1, 14, 30), // 01.10.25 14:30
             LocalDateTime.of(2025, 10, 1, 15, 45), // 01.10.25 15:45
@@ -63,8 +63,8 @@ public class SleepTrackerAppTest {
         LotSessionsWithBadSleep testFun = new LotSessionsWithBadSleep();
         SleepAnalysisResult result = testFun.apply(sleepingSessionsList);
 
-        assertEquals("Текущее количество сессий сна", result.getDescription());
-        assertEquals(4L, result.getResult());
+        assertEquals("Количество сессий с плохим качеством сна", result.getDescription());
+        assertEquals(1L, result.getResult());
     }
 
     @Test
