@@ -3,7 +3,6 @@ package ru.yandex.practicum.sleeptracker;
 import org.junit.jupiter.api.Test;
 import ru.yandex.practicum.sleeptracker.SessionFunction.*;
 
-import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.List;
 
