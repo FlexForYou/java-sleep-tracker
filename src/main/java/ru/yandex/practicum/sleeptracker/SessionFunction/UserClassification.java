@@ -7,7 +7,7 @@ import java.util.function.Function;
 
 import static ru.yandex.practicum.sleeptracker.ErrorLog.writeLogError;
 
-public class UserСlassification implements Function<List<SleepingSession>, SleepAnalysisResult> {
+public class UserClassification implements Function<List<SleepingSession>, SleepAnalysisResult> {
     public SleepAnalysisResult apply(List<SleepingSession> sessions) {
 
         String typeUser = null;

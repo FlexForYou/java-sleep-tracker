@@ -29,7 +29,7 @@ public class SleepTrackerApp {
         functionList.add(new MidSessionLength());
         functionList.add(new LotSessionsWithBadSleep());
         functionList.add(new SleeplessNights());
-        functionList.add(new UserСlassification());
+        functionList.add(new UserClassification());
 
         System.out.println("=========================================================================================");
         functionList.stream()

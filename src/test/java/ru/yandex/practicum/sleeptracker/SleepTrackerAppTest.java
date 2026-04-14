@@ -117,7 +117,7 @@ public class SleepTrackerAppTest {
                 SleepQuality.NORMAL
         ));
 
-        UserСlassification testFun = new UserСlassification();
+        UserClassification testFun = new UserClassification();
         SleepAnalysisResult result = testFun.apply(sleepingSessionsList);
 
         assertEquals("Ваш хронотип", result.getDescription());
@@ -132,7 +132,7 @@ public class SleepTrackerAppTest {
                 SleepQuality.NORMAL
         ));
 
-        UserСlassification testFun = new UserСlassification();
+        UserClassification testFun = new UserClassification();
         SleepAnalysisResult result = testFun.apply(sleepingSessionsList);
 
         assertEquals("Ваш хронотип", result.getDescription());
@@ -152,7 +152,7 @@ public class SleepTrackerAppTest {
                         SleepQuality.NORMAL
                 ));
 
-        UserСlassification testFun = new UserСlassification();
+        UserClassification testFun = new UserClassification();
         SleepAnalysisResult result = testFun.apply(sleepingSessionsList);
 
         assertEquals("Ваш хронотип", result.getDescription());
